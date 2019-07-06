@@ -77,6 +77,9 @@
     #pricing h1.blue {
         margin: 0 0 50px;
     }
+    #pricing .car-wash h3 {
+        font-size: 1.5rem;
+    }
     #pricing .card-body {
         padding: 1.25rem 0;
     }
