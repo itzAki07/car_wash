@@ -5,6 +5,7 @@
     #landing {
         height: 72vh;
         background-image: url(../img/rectangle9.jpg);
+        background-size: 100% 100%;
     }
     #landing .container {
         height: 80%;
@@ -53,16 +54,31 @@
         margin-bottom: 20px;
     }
     #about {
-        height: 250px;
+        height: 300px;
+    }
+    #about h2{
+        font-size: 32px;
+    }
+    #about p{
+        text-align: center;
+    }
+    #about .col-12{
+        padding: 0;
+    }
+    #about .box1 {
+        width: 100%;
     }
     #pricing {
         padding: 50px 0 0;
     }
+    #pricing .car-wash {
+        width: 230px;
+    }
     #pricing h1.blue {
         margin: 0 0 50px;
     }
-    #pricing .carousel-control-next-icon {
-        background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' …3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e)!important;
+    #pricing .card-body {
+        padding: 1.25rem 0;
     }
     .fas {
         color: #000;
