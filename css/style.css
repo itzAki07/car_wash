@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.row {
+	margin: 0 !important;
+	width: 100%;
+	height: 100%;
+}
+
+[class*='col-'] {
+	height: 100%;
+}
+
+.blue {
+	color: #00b9ff !important;
+}
+
+.cont-height {
+	height: 100%;
+	padding: 0;
+}
+
+.w-30 {
+	width: 30px;
+}
+
+.w-20 {
+	width: 20px;
+}
+
+.bg-black {
+	background-color: #000;
+}
+
+.navbar {
+	padding: 0;
+}
+
+.navbar-color-1 {
+	background-color: #505050;
+}
+
+.navbar .container-fluid .container {
+	padding: 0;
+}
+
+.navbar .container-fluid .container .row .col-md-2 {
+	padding: 5px 0;
+	text-align: center;
+	align-items: center;
+}
+
+.navbar .container-fluid .container .row .col-md-2 .lead {
+	margin: 0;
+	font-size: .8rem;
+	text-decoration: none;
+}
+
+.navbar-height {
+	height: 70px;
+}
+
+.navbar-expand-md .navbar-nav li {
+	margin-right: 30px;
+}
+
+.navbar-dark .navbar-brand {
+	padding: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+	color: #00b9ff;
+}
+
+/* Landing */
+#landing {
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/land.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.filter {
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+}
+
+#landing .filter .display-5 {
+	margin: 30px 0 0 90px;
+	font-weight: 600;
+	color: #fff;
+}
+
+#landing .box {
+	margin: 100px 0 0 90px;
+}
+
+#landing .filter .text {
+	margin: 20px 0 0;
+	color: #fff;
+}
+
+h1.blue {
+	font-weight: 900;
+	margin: 1px 0 0;
+	font-size: 32px;
+}
+
+#skills {
+	background-color: #00b9ff;
+}
+
+.skil {
+	padding: 30px 0;
+}
+
+.caption {
+	line-height: 3;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+/* Services */
+
+#services {
+	padding: 50px 0;
+}
+
+#services .container {
+	margin-top: 40px;
+}
+
+#services .row {
+	padding: 40px 0;
+}
+
+#services .item1 {
+	width: 100%;
+	height: 200px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 0;
+}
+
+#services .a {
+	background-image: url(../img/espresso-Carwash-Superior-Detailed-Groom.png);
+	background-size: 100% 100%;
+}
+
+#services .b {
+	background-image: url(../img/auto-repair-780x520.png);
+	background-size: 100% 100%;
+}
+
+#services .c {
+	background-image: url(../img/painting-car.png);
+
+	background-size: 100% 100%;
+}
+
+#services .d {
+	background-image: url(../img/car-Franchise-Dealerships.png);
+	background-size: 100% 100%;
+}
+
+#services .e {
+	background-image: url(../img/car-ac-fix.png);
+	background-size: 100% 100%;
+}
+
+#services .f {
+	background-image: url(../img/how-to-clean-car-engine.png);
+	background-size: 100% 100%;
+}
+
+#services .g {
+	background-image: url(../img/79274762_m-1.png);
+	background-size: 100% 100%;
+}
+
+#services .h {
+	background-image: url(../img/gettyImages-501775946-5c428816c9e77c0001f19a5f.png);
+	background-size: 100% 100%;
+}
+
+#services .i {
+	background-image: url(../img/2019-tesla-model-3_100689080_h.png);
+	background-size: 100% 100%;
+}
+
+#services .item1 .content {
+	width: 100%;
+	height: 75px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	color: #00b9ff !important;
+	background-color: initial;
+}
+.nav-pills .nav-link {
+	border-radius: 0;
+	color: #00b9ff !important;
+	border-bottom: 2px solid #cac7c7;
+	padding: 10px;
+}
+#pricing .car-wash{
+	width: 250px;
+	/* background-color: red; */
+	border: 3px solid #CCCCCC;
+	position: relative;
+}
+#pricing .car-wash h3{
+	font-size: 1.7rem;
+}
+#pricing .car-wash .best {
+	position: absolute;
+	left: 50%;
+	top: -3%;
+	transform: translate(-50%, -3%);
+}
+
+/* About */
+#about {
+    background-color: #F5F5F5;
+    height: 400px;
+}
+#about .container-fluid{
+    height: 100%;    
+}
+#about .container-fluid img{
+    height: 100%;    
+}
+.box1 h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.box1 .blue span{
+    color: #000;
+}
+.box1 hr{
+    margin: 0;
+}
+.box1 .fz{
+    font-size:1rem;
+}
+
+/* Pricing */
+#pricing{
+	padding: 50px 0;
+}
+
+/* Maps */
+
+#maps {
+	padding: 50px 0 0;
+}
+#maps .container-fluid{
+	padding: 0;
+}
+
+#maps .map {
+    margin-top: 50px;
+}
+#maps .img-fluid {
+    height: 550px;
+    width: 100%;
+}
+
+/* Footer */
+#footer{
+    padding:50px 0 0;
+    background-color: #000;
+}
+#footer .lead {
+    font-size: 1rem;
+}
+#footer h1{
+    font-size: 32px;
+}
+#footer .fz{
+    font-size: 12px;
+}
+#footer .iz {
+    width: 20px;
+}
+#footer .btn-success {
+    background-color: #00b9ff;
+}
+#footer .mt-5 {
+    margin-top: 30px!important;
+}
+#footer .iy {
+    width: 60%;
+}
+#footer hr{
+    background-color: #fff;
+    margin: 0;
+}
+#footer .mr {
+    font-size: 14px;
+}
+#footer a{
+    text-decoration: none;
+    color: #8A8A8A!important;
+    font-size: 14px;
+}

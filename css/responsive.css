@@ -1,0 +1,91 @@
+@media (max-width: 575.98px){
+    .navbar-nav{
+        align-items: flex-end;
+    }
+    #landing {
+        height: 72vh;
+        background-image: url(../img/rectangle9.jpg);
+    }
+    #landing .container {
+        height: 80%;
+        margin-top: 50px;
+    }
+    #landing .box-1{
+        height: 100%;
+    }
+    #landing .btn {
+        background-color: #00b9ff;
+        border-radius: 25px;
+    }
+    #landing .filter .display-5{
+        margin: 20px 0 0;
+        text-align: center;
+        font-size: 20px;
+    }
+    #landing .box {
+        margin: 0;
+        text-align: center;
+    }
+    #landing .lead {
+        font-size: .7rem;
+    }
+    #landing h1.blue{
+        font-size: 24px;
+    }
+    #landing .filter .text{
+        margin: 7px 0 0;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    #skills .row img {
+        width: 50px;
+    }
+    .skil {
+        padding: 15px 0 0;
+    }
+
+    #services .row {
+        padding: 0;
+    }
+
+    #services [class*='col-10'] {
+        margin-bottom: 20px;
+    }
+    #about {
+        height: 250px;
+    }
+    #pricing {
+        padding: 50px 0 0;
+    }
+    #pricing h1.blue {
+        margin: 0 0 50px;
+    }
+    #pricing .carousel-control-next-icon {
+        background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' …3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e)!important;
+    }
+    .fas {
+        color: #000;
+    }
+
+    
+    #maps .img-fluid {
+        height: auto;
+    }
+    .text-cent {
+        text-align: center!important;
+        justify-content: center!important;
+    }
+    /* #footer .mt-5 {
+        margin-top: 0!important;
+    } */
+    #footer .mb{
+        margin: 0;
+    }
+    #footer a{
+        padding: 0 10px 10px !important;
+    }
+    #footer .pad a  {
+        padding: 0!important;
+    }
+}
